@@ -14,6 +14,7 @@ export function Subheader() {
     email: "werlleyponte@gmail.com",
     message:
       "Apaixonado por soluções tecnológicas que conectam pessoas e ideias",
+    buttonUrl: "mailto:werlleyponte@gmail.com",
   });
 
   const handleSwitchLanguage = useCallback(() => {
@@ -35,7 +36,7 @@ export function Subheader() {
             <span className="slider"></span>
           </label>
         </DivSetLanguage>
-        <ButtonContact>
+        <ButtonContact href={subheaderData.buttonUrl} target="_blank">
           <Image src={MailBox} alt={"Mailbox"} />
           Bora bater um papo?
         </ButtonContact>

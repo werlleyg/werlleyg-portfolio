@@ -81,7 +81,7 @@ export const DivSetLanguage = styled.div`
   }
 `;
 
-export const ButtonContact = styled.button`
+export const ButtonContact = styled.a`
   display: inline-flex;
   padding: 0.5rem 1.5rem 0.5rem 1.125rem;
   justify-content: center;
