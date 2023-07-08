@@ -1,16 +1,25 @@
-import { useState } from "react";
+import { useCallback, useState } from "react";
 import { ButtonContact, Container, DivOptions, DivSetLanguage } from "./styles";
 import Image from "next/image";
 
 // icons
 import MailBox from "../../../public/assets/icons/mailbox.svg";
 
+// types
+
 export function Subheader() {
+  const [englishLanguage, setEnglishLanguage] = useState<boolean>(false);
+
   const [subheaderData] = useState({
     email: "werlleyponte@gmail.com",
     message:
       "Apaixonado por soluções tecnológicas que conectam pessoas e ideias",
   });
+
+  const handleSwitchLanguage = useCallback(() => {
+    setEnglishLanguage((prev) => !prev);
+  }, [englishLanguage]);
+
   return (
     <Container>
       <p>{`${subheaderData.email}  |  ${subheaderData.message}`}</p>
@@ -18,8 +27,12 @@ export function Subheader() {
         <DivSetLanguage>
           BR-US
           <label>
-            <input type='checkbox' />
-            <span className='slider'></span>
+            <input
+              type="checkbox"
+              checked={englishLanguage}
+              onChange={handleSwitchLanguage}
+            />
+            <span className="slider"></span>
           </label>
         </DivSetLanguage>
         <ButtonContact>
