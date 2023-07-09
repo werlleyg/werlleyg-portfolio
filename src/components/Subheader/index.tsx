@@ -4,13 +4,14 @@ import Image from "next/image";
 
 // icons
 import MailBox from "../../../public/assets/icons/mailbox.svg";
+import { ISubheaderData } from "@/dtos/header";
 
 // types
 
 export function Subheader() {
   const [englishLanguage, setEnglishLanguage] = useState<boolean>(false);
 
-  const [subheaderData] = useState({
+  const [subheaderData] = useState<ISubheaderData>({
     email: "werlleyponte@gmail.com",
     message:
       "Apaixonado por soluções tecnológicas que conectam pessoas e ideias",

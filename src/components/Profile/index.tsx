@@ -19,8 +19,11 @@ import GithubIcon from "../../../public/assets/icons/github.svg";
 import InstagramIcon from "../../../public/assets/icons/instagram.svg";
 import WhatsappIcon from "../../../public/assets/icons/whatsapp.svg";
 
+// types
+import { IProfileData } from "@/dtos/header";
+
 export function Profile() {
-  const [profileData] = useState({
+  const [profileData] = useState<IProfileData>({
     name: "Werlley Ponte",
     degreeInformation:
       "Eng. Eletricista | Pós-graduado em Eng. de Software Desenvolvedor Front-End",
