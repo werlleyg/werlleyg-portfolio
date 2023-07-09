@@ -10,4 +10,5 @@ export const Container = styled.div`
   flex-direction: column;
 
   gap: 8.375rem;
+  padding-bottom: 1.25rem;
 `;
