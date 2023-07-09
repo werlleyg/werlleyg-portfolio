@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Roboto_Condensed } from "next/font/google";
+import { Header } from "@/containers/Header";
 
 const roboto = Roboto_Condensed({
   subsets: ["latin"],
@@ -19,7 +20,9 @@ export default function Home() {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <main className={roboto.className}></main>
+      <main className={roboto.className}>
+        <Header />
+      </main>
     </>
   );
 }
