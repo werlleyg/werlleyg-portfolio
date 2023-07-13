@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Roboto_Condensed } from "next/font/google";
 import { Header } from "@/containers/Header";
 import { TechnologiesAndTools } from "@/containers/TechnologiesAndTools";
+import { AboutMe } from "@/containers/AboutMe";
 
 const roboto = Roboto_Condensed({
   subsets: ["latin"],
@@ -24,6 +25,7 @@ export default function Home() {
       <main className={roboto.className}>
         <Header />
         <TechnologiesAndTools />
+        <AboutMe />
       </main>
     </>
   );
