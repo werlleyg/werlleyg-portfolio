@@ -6,8 +6,6 @@ import Image from "next/image";
 import MailBox from "../../../public/assets/icons/mailbox.svg";
 import { ISubheaderData } from "@/dtos/header";
 
-// types
-
 export function Subheader() {
   const [englishLanguage, setEnglishLanguage] = useState<boolean>(false);
 
@@ -30,14 +28,14 @@ export function Subheader() {
           BR-US
           <label>
             <input
-              type="checkbox"
+              type='checkbox'
               checked={englishLanguage}
               onChange={handleSwitchLanguage}
             />
-            <span className="slider"></span>
+            <span className='slider'></span>
           </label>
         </DivSetLanguage>
-        <ButtonContact href={subheaderData.buttonUrl} target="_blank">
+        <ButtonContact href={subheaderData.buttonUrl} target='_blank'>
           <Image src={MailBox} alt={"Mailbox"} />
           Bora bater um papo?
         </ButtonContact>
