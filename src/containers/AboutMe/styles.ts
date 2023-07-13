@@ -5,7 +5,7 @@ export const Container = styled.div`
   grid-template-columns: 1fr 20.625rem;
   gap: 1.875rem;
 
-  width: min(100%, 64rem);
+  width: min(100% - 2rem, 64rem);
   margin-inline: auto;
   padding-top: 4rem;
 `;
