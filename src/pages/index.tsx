@@ -5,6 +5,7 @@ import { Header } from "@/containers/Header";
 import { TechnologiesAndTools } from "@/containers/TechnologiesAndTools";
 import { AboutMe } from "@/containers/AboutMe";
 import { Skills } from "@/containers/Skills";
+import { QuickRead } from "@/containers/QuickRead";
 
 const roboto = Roboto_Condensed({
   subsets: ["latin"],
@@ -28,6 +29,7 @@ export default function Home() {
         <TechnologiesAndTools />
         <AboutMe />
         <Skills />
+        <QuickRead />
       </main>
     </>
   );

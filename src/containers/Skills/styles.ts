@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 
 export const Container = styled.div`
-  width: min(100%, 63rem);
+  width: min(100%, var(--inner-max-width-in));
   margin-inline: auto;
   margin-top: 4rem;
   padding-bottom: 2rem;
