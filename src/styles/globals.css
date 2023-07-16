@@ -3,6 +3,7 @@
   --background-color-rgb: 18, 18, 20;
 
   --white-color: #ffffff;
+  --transparent: transparent;
 
   --light-gray-color: #cccccc;
   --middle-gray-color: #666669;
@@ -22,10 +23,13 @@
 
   --max-width: 120rem;
   --inner-max-width: 72.5rem;
+  --inner-max-width-in: 63rem;
 
   --border-radius: 0.5rem;
   --button-border-radius: 2rem;
   --switch-border-radius: 1rem;
+
+  --animation-time: 0.3s;
 }
 
 @media (prefers-color-scheme: dark) {
