@@ -13,7 +13,8 @@ export const ACard = styled.a`
   transition: var(--animation-time);
 
   :hover {
-    transform: scale(1.03);
+    transform: translateY(-0.25rem);
+    border-bottom: 0.375rem solid var(--primary-color);
   }
 `;
 
