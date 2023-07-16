@@ -2,10 +2,10 @@ import { ReactNode } from "react";
 
 import { P } from "./styles";
 
-interface TitleProps {
+interface PCardProps {
   children: string;
 }
 
-export function PCard({ children }: TitleProps) {
+export function PCard({ children }: PCardProps) {
   return <P>{children}</P>;
 }
