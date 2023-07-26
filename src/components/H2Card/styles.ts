@@ -1,7 +1,12 @@
 import styled from "@emotion/styled";
 
-export const H2 = styled.h2`
-  color: var(--background-color);
+interface IH2 {
+  titleColor?: string;
+}
+
+export const H2 = styled.h2<IH2>`
+  color: ${(props) =>
+    props.titleColor ? props.titleColor : "var(--background-color)"};
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 700;
