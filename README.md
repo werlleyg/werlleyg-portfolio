@@ -39,11 +39,11 @@
 -   [x] About me
 -   [x] Skills
 -   [x] Quick read
--   [ ] My projects :hourglass:
--   [ ] Professional experience
+-   [x] My projects 
+-   [ ] Professional experience :hourglass:
 -   [ ] Academic experience
 -   [ ] Education
--   [ ] Education complementary
+-   [ ] Additional education
 -   [ ] GitHub
 -   [ ] Footer
 -   [ ] Responsiveness of website sections
