@@ -1,6 +1,6 @@
 import { StaticImageData } from "next/image";
 
-export interface ICardMyProject {
+export interface IMyProject {
   title: string;
   image: StaticImageData;
   description: string;

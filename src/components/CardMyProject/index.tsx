@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 
 import { CardProject, DivCardContent, DivCardPreview, P } from "./styles";
-import { ICardMyProject } from "@/dtos/myprojects";
+import { IMyProject } from "@/dtos/myProjects";
 import { H2Card } from "../H2Card";
 import Image from "next/image";
 
@@ -12,7 +12,7 @@ export function CardMyProject({
   skills,
   technologies,
   link,
-}: ICardMyProject) {
+}: IMyProject) {
   return (
     <CardProject href={link} target='_blank'>
       <DivCardPreview>
