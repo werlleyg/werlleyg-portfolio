@@ -5,6 +5,6 @@ export interface ICardMyProject {
   image: StaticImageData;
   description: string;
   link: string;
-  skills: string[];
-  technologies: string[];
+  skills: string;
+  technologies: string;
 }
