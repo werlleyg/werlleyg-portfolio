@@ -7,4 +7,5 @@ export interface IMyProject {
   link: string;
   skills: string;
   technologies: string;
+  color?: string;
 }
