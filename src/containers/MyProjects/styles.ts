@@ -14,7 +14,7 @@ export const Container = styled.div`
 
 export const DivDeck = styled.div`
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;

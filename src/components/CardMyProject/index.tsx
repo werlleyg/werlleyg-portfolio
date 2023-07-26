@@ -12,14 +12,15 @@ export function CardMyProject({
   skills,
   technologies,
   link,
+  color,
 }: IMyProject) {
   return (
-    <CardProject href={link} target='_blank'>
+    <CardProject href={link} target="_blank">
       <DivCardPreview>
         <Image src={image} alt={title} />
       </DivCardPreview>
       <DivCardContent>
-        <H2Card>{title}</H2Card>
+        <H2Card titleColor={color}>{title}</H2Card>
 
         <P>{description}</P>
         <P>
