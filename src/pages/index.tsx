@@ -7,6 +7,7 @@ import { AboutMe } from "@/containers/AboutMe";
 import { Skills } from "@/containers/Skills";
 import { QuickRead } from "@/containers/QuickRead";
 import { MyProjects } from "@/containers/MyProjects";
+import { Footer } from "@/containers/Footer";
 
 const roboto = Roboto_Condensed({
   subsets: ["latin"],
@@ -19,11 +20,11 @@ export default function Home() {
       <Head>
         <title>Werlley Ponte - Portfólio</title>
         <meta
-          name='description'
-          content='My name is Werlley Ponte, and I bring to you a little bit of my journey as a developer in my online portfolio. 💻🚀'
+          name="description"
+          content="My name is Werlley Ponte, and I bring to you a little bit of my journey as a developer in my online portfolio. 💻🚀"
         />
-        <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <link rel='icon' href='/favicon.ico' />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={roboto.className}>
         <Header />
@@ -32,6 +33,7 @@ export default function Home() {
         <Skills />
         <QuickRead />
         <MyProjects />
+        <Footer />
       </main>
     </>
   );
