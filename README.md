@@ -1,4 +1,3 @@
-
 <h2 align="center">Werlley Ponte - My Portfolio</h2>
 
 <div align="center">
@@ -27,28 +26,25 @@
   Let's create the future of technology!  
 </p>
 
-
-
 <h3 align="center">🚧 Next.js 13 version 🚀 Building... </h3>
 
 ## :space_invader: Features
--   [x] Create a new project in Next.js 13  
--   [x] Create [project design](https://www.figma.com/proto/LGc0OJcbH9csxwqYMUtvJY/my-portfolio?type=design&node-id=1-2&t=j2S8C5rYAQLEcstk-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2&mode=design)
--   [x] Header section
--   [x] Technologies and tools
--   [x] About me
--   [x] Skills
--   [x] Quick read
--   [x] My projects 
--   [ ] Professional experience :hourglass:
--   [ ] Academic experience
--   [ ] Education
--   [ ] Additional education
--   [ ] GitHub
--   [ ] Footer
--   [ ] Responsiveness of website sections
 
-
+- [x] Create a new project in Next.js 13
+- [x] Create [project design](https://www.figma.com/proto/LGc0OJcbH9csxwqYMUtvJY/my-portfolio?type=design&node-id=1-2&t=j2S8C5rYAQLEcstk-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2&mode=design)
+- [x] Header section
+- [x] Technologies and tools
+- [x] About me
+- [x] Skills
+- [x] Quick read
+- [x] My projects
+- [x] Professional experience :hourglass:
+- [ ] Academic experience
+- [ ] Education
+- [ ] Additional education
+- [ ] GitHub
+- [x] Footer
+- [ ] Responsiveness of website sections
 
 <br/>
 
