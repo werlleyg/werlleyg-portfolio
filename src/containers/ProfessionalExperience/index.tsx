@@ -4,7 +4,7 @@ import { TimelineCard } from "@/components/TimelineCard";
 // styles
 import { Container, DivDeck } from "./styles";
 // types
-import { IExperience } from "@/dtos/professionalExperience";
+import { IExperience } from "@/dtos/experience";
 
 export function ProfessionalExperience() {
   const listPrefessionalExperience: IExperience[] = [

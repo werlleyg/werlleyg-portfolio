@@ -14,7 +14,7 @@ import {
 // components
 import { PCard } from "../PCard";
 // types
-import { IExperience } from "@/dtos/professionalExperience";
+import { IExperience } from "@/dtos/experience";
 
 interface ITimeLineCardProps {
   experience: IExperience;

@@ -9,6 +9,7 @@ import { QuickRead } from "@/containers/QuickRead";
 import { MyProjects } from "@/containers/MyProjects";
 import { Footer } from "@/containers/Footer";
 import { ProfessionalExperience } from "@/containers/ProfessionalExperience";
+import { AcademicExperience } from "@/containers/AcademicExperience";
 
 const roboto = Roboto_Condensed({
   subsets: ["latin"],
@@ -35,6 +36,7 @@ export default function Home() {
         <QuickRead />
         <MyProjects />
         <ProfessionalExperience />
+        <AcademicExperience />
         <Footer />
       </main>
     </>
