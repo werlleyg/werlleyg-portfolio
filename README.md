@@ -39,7 +39,7 @@
 - [x] Quick read
 - [x] My projects
 - [x] Professional experience :hourglass:
-- [ ] Academic experience
+- [x] Academic experience
 - [ ] Education
 - [ ] Additional education
 - [ ] GitHub
