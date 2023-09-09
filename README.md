@@ -40,7 +40,7 @@
 - [x] My projects
 - [x] Professional experience :hourglass:
 - [x] Academic experience
-- [ ] Education
+- [x] Education
 - [ ] Additional education
 - [ ] GitHub
 - [x] Footer
