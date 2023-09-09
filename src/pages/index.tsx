@@ -10,6 +10,7 @@ import { MyProjects } from "@/containers/MyProjects";
 import { Footer } from "@/containers/Footer";
 import { ProfessionalExperience } from "@/containers/ProfessionalExperience";
 import { AcademicExperience } from "@/containers/AcademicExperience";
+import { Education } from "@/containers/Education";
 
 const roboto = Roboto_Condensed({
   subsets: ["latin"],
@@ -37,6 +38,7 @@ export default function Home() {
         <MyProjects />
         <ProfessionalExperience />
         <AcademicExperience />
+        <Education />
         <Footer />
       </main>
     </>
