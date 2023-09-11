@@ -41,7 +41,7 @@
 - [x] Professional experience :hourglass:
 - [x] Academic experience
 - [x] Education
-- [ ] Additional education
+- [x] Additional education
 - [ ] GitHub
 - [x] Footer
 - [ ] Responsiveness of website sections
