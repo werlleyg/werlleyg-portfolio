@@ -18,3 +18,16 @@ export const H1 = styled.h1`
   font-weight: 700;
   line-height: normal;
 `;
+
+export const Deck = styled.div`
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 48px;
+
+  transition: var(--animation-time);
+
+  :hover > :not(:hover) {
+    opacity: 0.5;
+  }
+`;
