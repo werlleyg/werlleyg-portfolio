@@ -42,7 +42,7 @@
 - [x] Academic experience
 - [x] Education
 - [x] Additional education
-- [ ] GitHub
+- [x] GitHub
 - [x] Footer
 - [ ] Responsiveness of website sections
 
