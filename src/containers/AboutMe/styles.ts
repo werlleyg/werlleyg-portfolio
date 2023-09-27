@@ -8,10 +8,21 @@ export const Container = styled.div`
   width: min(100% - 2rem, 64rem);
   margin-inline: auto;
   padding-top: 4rem;
+
+  @media screen and (max-width: 674px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 export const DivLeftColumn = styled.div``;
-export const DivRightColumn = styled.div``;
+export const DivRightColumn = styled.div`
+  @media screen and (max-width: 674px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+`;
 export const P = styled.p`
   color: var(--white-color);
   font-size: 1.25rem;
